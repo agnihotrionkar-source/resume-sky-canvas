@@ -24,7 +24,7 @@ const AreasOfExpertise = () => {
             <Badge 
               key={index} 
               variant="secondary" 
-              className="text-base py-2 px-4 bg-hero.primary text-white hover:bg-hero.primary/90 transition-colors"
+              className="text-base py-2 px-4 bg-hero.secondary text-foreground hover:bg-hero.secondary/80 transition-colors"
             >
               {area}
             </Badge>
